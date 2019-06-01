@@ -1,0 +1,20 @@
+# Site settings
+author: Annie 
+title: a foray into coding
+header-img: img/home-bg.png
+email: artruex@gmail.com
+copyright_name: Annie 
+description: > # this means to ignore newlines until "baseurl:"
+  exactly how steep is this learning curve?
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  bonjourannie
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
